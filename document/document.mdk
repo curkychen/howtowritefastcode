@@ -1,0 +1,22 @@
+Title         : Welcome
+Author        : You
+Logo          : True
+
+[TITLE]
+
+# module 2
+
+What are the differences between multicore and manycore processors? 
+
+* multicore ：Each core optimized for executing a single thread 
+manycore: Cores optimized for aggregate throughput, deemphasizing individual performance, 
+Similar in scaling trends(increasing vector unit width; Increasing numbers of cores per die; increasing bandwidth to off-chip memory )
+ 
+Different in optimization points 
+
+* Explore the upper-right toolbox menu to discover how Markdown works. 
+* `Alt-Q` reformats the current paragraph.
+
+Enjoy!
+
+[reference manual]: http://research.microsoft.com/en-us/um/people/daan/madoko/doc/reference.html  "Madoko reference manual"
