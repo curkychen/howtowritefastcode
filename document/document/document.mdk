@@ -1,0 +1,39 @@
+Title         : Welcome
+Author        : You
+Logo          : True
+
+[TITLE]
+
+# module 2
+
+What are the differences between multicore and manycore processors? 
+
+* multicore ：Each core optimized for executing a single thread 
+* manycore: Cores optimized for aggregate throughput, deemphasizing individual performance, 
+ * Similar in scaling trends(increasing vector unit width; Increasing numbers of cores per die; increasing bandwidth to off-chip memory )
+ * Different in optimization points 
+
+What is instruction level parallelism?
+
+* Instructions in a	 sequence that can	be	computed	at	the	same	time
+* Later out of order pipline, solve the problem of traditional in order pipline(inorde r scalar pipline ) that Reduced ILP and r/w operand dependency
+* AD: do not need to change the sequential software 
+* DIS: 
+  * Significantly	more	complex	processor	architecture	
+  * Longer	to	design	the	processor
+ * Longer	to	verify	the	correctness	of	the	processor	design	
+  * Consumes	more	energy	than	simple	in-order	processor	
+
+What is SIMD?
+
+ * Single	Inst,	Multiple Data
+ * Can	be	area	and	power	efficient:	AmorJze	control	overhead	over	SIMD	width	
+ * Parallelism	exposed	to	programmer	&	compiler
+ * NVIDIA:	32	way	SIMD
+ 
+ How	to	UJlize	SIMD	CapabiliJes?
+  * Compilers:
+  Data types used for SIMD operations are called vector types. Each vector type has its corresponding scalar type
+  
+
+
